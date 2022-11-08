@@ -58,7 +58,7 @@ function Maincontent({changestate}){
 
    
     <Routes>
-        <Route path="/admindashboard" element={<Content/>}/>
+        <Route path="/admin-dashboard" element={<Content/>}/>
         <Route path='/Buttons' element={<ButtonsPage/>}/>
         <Route path='/Cards' element={<CardsPage/>}/>
         <Route path='/Borders' element={<BordersPage/>}/>

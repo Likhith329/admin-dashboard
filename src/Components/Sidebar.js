@@ -19,7 +19,7 @@ function Sidebar({changestate}){
         <li className="nav-item d-flex ">
             
             <button className="btn btn-primary sbtn" onClick={()=>{
-                navigate('/admindashboard')
+                navigate('/admin-dashboard')
             }}><i class="bi bi-speedometer2"></i><span className="btnname">Dashboard</span></button>
         </li>
         <div className="divider d-flex justify-content-center"><hr></hr></div>

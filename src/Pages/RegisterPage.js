@@ -18,15 +18,15 @@ export default function RegisterPage(){
                         <input className='form-control pi' type={'password'} placeholder={'Repeat Password'}></input>
                     </div>
                     <button className='btn btn-primary registerbtn' onClick={()=>{
-                            navigate('/admindashboard')
+                            navigate('/admin-dashboard')
                             window.location.reload()
                         }}>Register Account</button>
                     <button className='btn btn-google gb' onClick={()=>{
-                            navigate('/admindashboard')
+                            navigate('/admin-dashboard')
                             window.location.reload()
                         }}><i class="bi bi-google"></i>Login with Google</button>
                     <button className='btn btn-facebook fb' onClick={()=>{
-                            navigate('/admindashboard')
+                            navigate('/admin-dashboard')
                             window.location.reload()
                         }}><i class="bi bi-facebook"></i>Login with Facebook</button>
                     <a href='#' onClick={()=>{

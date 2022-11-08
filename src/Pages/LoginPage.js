@@ -15,17 +15,17 @@ export default function LoginPage(){
                         <div className='checkbx'><input className='form-check-input ui' type={'checkbox'}></input><span>Remember me</span></div>
 
                         <button className='btn btn-primary loginbtn'  onClick={()=>{
-                            navigate('/admindashboard')
+                            navigate('/admin-dashboard')
                             window.location.reload()
                         }}>Login</button>
                        
                         <button className='btn-google ib ' onClick={()=>{
-                            navigate('/admindashboard')
+                            navigate('/admin-dashboard')
                             window.location.reload()
                         }}>Login with Google</button>
 
                         <button className='btn-facebook ib'  onClick={()=>{
-                            navigate('/admindashboard')
+                            navigate('/admin-dashboard')
                             window.location.reload()
                         }}>Login with facebook</button>
                       

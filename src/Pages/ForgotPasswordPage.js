@@ -13,7 +13,7 @@ export default function ForgotPasswordPage(){
             <input className='form-control ui' type={'text'} placeholder={'Enter Email Adress..'} ></input>
     
             <button className='btn btn-primary resetbtn ui'  onClick={()=>{
-                navigate('/admindashboard')
+                navigate('/admin-dashboard')
                 window.location.reload()
             }}>Reset Password</button>
 
